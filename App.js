@@ -131,7 +131,6 @@ export default class App extends React.Component {
     material.side = THREE.BackSide;
     var cube = new THREE.Mesh(geometry, materialArray);
     this.scene.add(cube);
-
     this.camera.position.z = 4;
 
     var animate = function() {

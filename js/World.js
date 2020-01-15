@@ -21,7 +21,6 @@ export default class World {
     this.depth = depth;
     this.data = this.generateHeight(width, depth);
   }
-
   isValidBlock = (x, y, z) => {
     if (isNaN(x) || isNaN(y) || isNaN(z)) {
       return false;

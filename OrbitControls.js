@@ -377,7 +377,7 @@ function OrbitControls(object, clientWidth, clientHeight) {
         "WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled."
       );
       scope.enableZoom = false;
-    }
+    } 
   }
 
   //

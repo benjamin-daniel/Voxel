@@ -9,7 +9,7 @@ import DirectionType from '../js/DirectionType'
 
 class Button extends React.PureComponent {
   render() {
-    const size = 50 - 4
+    const size = 50 - 4 
     const {style, onPress, id, onPressOut} = this.props
     return (
       <TouchableOpacity style={[style, {padding: 2}]} onPressOut={_=> onPressOut(id)} onPressIn={_=> {onPress(id)}}>

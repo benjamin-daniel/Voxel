@@ -18,7 +18,7 @@ export default WrappedComponent => {
       onTouchStart,
       onTouchMove,
       onTouchEnd,
-      onTouchCancel
+      onTouchCancel 
     }) =>
       PanResponder.create({
         onStartShouldSetPanResponder: (evt, gestureState) => true,
